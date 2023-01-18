@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+
+<LinearLayout android:layout_height="match_parent"
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:background="@color/backgroundApp"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Đăng nhập"
+        android:textColor="@color/backgroundInputColor"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:textAlignment="center">
+    </TextView>
+    <ImageView
+        android:src="@color/cardview_shadow_end_color"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/teal_200"
+        android:layout_marginLeft="120dp"
+        android:layout_marginRight="120dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginBottom="50dp"
+        >
+    </ImageView>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_text_radius"
+        android:inputType="text"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:textColor="@color/white"
+        android:hint="Tên đăng nhập"
+        android:textColorHint="@color/white"
+        android:textSize="14dp"
+        android:paddingLeft="24px"
+        android:paddingRight="24px">
+    </com.google.android.material.textfield.TextInputEditText>
+    <com.google.android.material.textfield.TextInputEditText
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:background="@drawable/input_text_radius"
+        android:inputType="textPassword"
+        android:layout_marginLeft="37dp"
+        android:layout_marginRight="37dp"
+        android:layout_marginTop="25dp"
+        android:textColor="@color/white"
+        android:hint="Mật khẩu"
+        android:textColorHint="@color/white"
+        android:textSize="14dp"
+        android:paddingLeft="24px"
+        android:paddingRight="24px">
+    </com.google.android.material.textfield.TextInputEditText>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Quên mật khẩu?"
+        android:textColor="@color/backgroundInputColor"
+        android:textSize="14dp"
+
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="270dp">
+    </TextView>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/btLogin"
+        android:layout_width="match_parent"
+        android:layout_height="48dp"
+        android:layout_marginLeft="37dp"
+        android:layout_marginTop="37dp"
+        android:layout_marginRight="37dp"
+        android:background="@drawable/button_radius"
+        android:backgroundTint="@color/backgroundButtonColorGreen"
+        android:text="Đăng nhập"
+        android:textColor="@color/white"
+        android:textSize="14dp">
+
+    </androidx.appcompat.widget.AppCompatButton>
+    <TextView
+        android:id="@+id/btOpenRegister"
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:text="Chưa có tài khoản? Đăng kí!"
+        android:textColor="@color/backgroundInputColor"
+        android:textSize="14dp"
+        android:textStyle="normal"
+        android:textAlignment="center">
+    </TextView>
+</LinearLayout>

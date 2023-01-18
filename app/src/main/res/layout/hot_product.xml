@@ -13,11 +13,6 @@
             android:layout_height="match_parent"
             android:orientation="vertical"
             android:background="@color/backgroundApp">
-            <ImageView
-                android:src="@drawable/slider"
-                android:layout_width="match_parent"
-                android:layout_height="250dp">
-            </ImageView>
 
             <TextView
                 android:layout_width="match_parent"
@@ -81,78 +76,15 @@
                         />
                 </TableRow>
             </TableLayout>
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btOpenHot"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="37dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginRight="37dp"
-                android:background="@drawable/button_radius"
-                android:backgroundTint="@color/backgroundButtonColorGreen"
-                android:text="Xem Thêm"
-                android:textColor="@color/white"
-                android:textSize="14dp">
-            </androidx.appcompat.widget.AppCompatButton>
             <TextView
                 android:layout_width="match_parent"
-                android:layout_height="40dp"
-                android:text="Phân loại phổ biến"
-                android:textColor="@color/backgroundButtonColorGreen"
-                android:textSize="20dp"
-                android:textStyle="bold"
-                android:layout_marginLeft="26dp"
-                android:layout_marginTop="21dp">
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="@color/backgroundInputColor"
+                android:text=" 1 2 3 ... 9 10 11 "
+                >
             </TextView>
-            <TableLayout
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content">
-                <TableRow
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="20dp">
-                    <include layout="@layout/item_category"
-                        android:layout_width="160dp"
-                        android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
-                    <include layout="@layout/item_category"
-                        android:layout_width="160dp"
-                        android:layout_height="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
-                        />
-                </TableRow>
-                <TableRow
-                    android:layout_marginTop="10dp"
-                    android:layout_marginBottom="20dp">
-                    <include layout="@layout/item_category"
-                        android:layout_width="160dp"
-                        android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
-                    <include layout="@layout/item_category"
-                        android:layout_width="160dp"
-                        android:layout_height="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
-                        />
-                </TableRow>
-            </TableLayout>
-            <androidx.appcompat.widget.AppCompatButton
-                android:id="@+id/btOpenCategory"
-                android:layout_width="match_parent"
-                android:layout_height="48dp"
-                android:layout_marginLeft="37dp"
-                android:layout_marginTop="37dp"
-                android:layout_marginRight="37dp"
-                android:background="@drawable/button_radius"
-                android:backgroundTint="@color/backgroundButtonColorGreen"
-                android:text="Xem Thêm"
-                android:textColor="@color/white"
-                android:textSize="14dp">
-            </androidx.appcompat.widget.AppCompatButton>
         </LinearLayout>
     </ScrollView>
     <include layout="@layout/footer"/>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+    <include layout="@layout/header"/>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="570dp"
+        android:background="@color/backgroundApp">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:background="@color/backgroundApp">
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:text="Phân loại phổ biến"
+                android:textColor="@color/backgroundButtonColorGreen"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:layout_marginLeft="26dp"
+                android:layout_marginTop="21dp">
+            </TextView>
+            <TableLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp">
+                    <include layout="@layout/item_category"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <include layout="@layout/item_category"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp">
+                    <include layout="@layout/item_category"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <include layout="@layout/item_category"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        />
+                </TableRow>
+                <TableRow
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp">
+                    <include layout="@layout/item_category"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="20dp"
+                        android:layout_marginRight="10dp"
+                        />
+                    <include layout="@layout/item_category"
+                        android:layout_width="160dp"
+                        android:layout_height="250dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"
+                        />
+                </TableRow>
+            </TableLayout>
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="30dp"
+                android:textAlignment="center"
+                android:textSize="24dp"
+                android:textColor="@color/backgroundInputColor"
+                android:text=" 1 2 3 ... 9 10 11 ">
+            </TextView>
+        </LinearLayout>
+    </ScrollView>
+    <include layout="@layout/footer"/>
+</LinearLayout>

@@ -6,15 +6,6 @@
     android:orientation="vertical"
     android:background="@color/backgroundApp"
     xmlns:android="http://schemas.android.com/apk/res/android">
-    <TextView
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Đăng Ký"
-        android:textColor="@color/backgroundInputColor"
-        android:textSize="20dp"
-        android:textStyle="bold"
-        android:textAlignment="center">
-    </TextView>
     <ImageView
         android:src="@color/cardview_shadow_end_color"
         android:layout_width="match_parent"

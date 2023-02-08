@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Tình trạng đơn hàng"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="10sp"
+        android:paddingTop="10sp"
+        android:text="Đơn hàng #123456"
+        android:textStyle="bold"
+        tools:textColor="@color/black"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:background="@color/backgroundButtonColorGreen"
+        android:paddingLeft="10sp"
+        android:paddingTop="15sp"
+        android:text="Tình trạng: Đang vận chuyển "
+        tools:textColor="@color/black"
+        tools:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView25"
+        android:layout_width="match_parent"
+        android:layout_height="69dp"
+        android:paddingLeft="10sp"
+        android:paddingTop="20sp"
+        android:text="Chi tiết đơn hàng"
+        android:textStyle="bold"
+        tools:textColor="@color/black"
+        tools:textSize="20sp" />
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <include
+                layout="@layout/item_payment_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10dp" />
+
+            <include
+                layout="@layout/item_payment_confirm"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_marginTop="10sp" />
+
+            <TextView
+                android:id="@+id/textView26"
+                android:layout_width="match_parent"
+                android:layout_height="69dp"
+                android:paddingLeft="10sp"
+                android:paddingTop="20sp"
+                android:text="Đã thanh toán : 40.000.000đ"
+                android:textAlignment="textEnd"
+                android:textStyle="bold"
+                tools:textColor="@color/black"
+                tools:textSize="20sp" />
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

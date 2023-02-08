@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="120sp"
+    android:orientation="vertical">
+
+    <TableRow
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:backgroundTint="@color/black">
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="120dp"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/ip14" />
+
+        <TextView
+            android:id="@+id/textView9"
+            tools:paddingTop="20sp"
+            android:layout_width="243dp"
+            android:layout_height="match_parent"
+            android:paddingTop="10sp"
+            android:text=" Điện thoại iphone 14 512 GB, Gray chính hãng Apple "
+            android:textColor="@color/black" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent">
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:padding="10sp"
+            android:text="SL:2"
+            android:textAlignment="center"
+            android:textColor="@color/black" />
+
+    </TableRow>
+</LinearLayout>

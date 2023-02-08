@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingTop="10sp"
+        android:paddingBottom="10sp"
+        android:text="Đặt hàng thành công"
+        android:textAlignment="center"
+        android:textColor="@color/black"
+        android:textSize="34sp"
+        android:textStyle="bold" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:paddingLeft="5sp"
+        android:paddingTop="20sp"
+        android:paddingBottom="20sp"
+        android:text="Đơn hàng #123456 đã được đặt thành công! Nhà vận chuyển sẽ giao sản phẩm đến Quý Khách hàng trong vòng 4-7 ngày. Theo dõi ngay tình trạng đơn hàng tại đây!"
+        android:textSize="20sp"
+        tools:textColor="@color/black" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="match_parent"
+        android:layout_height="51dp"
+        android:background="@color/backgroundButtonColorGreen"
+        android:paddingTop="10sp"
+        android:text="Tình trạng đơn hàng"
+        android:textAlignment="center"
+        android:textSize="20sp"
+        tools:textColor="@color/backgroundInputColor"
+        tools:textStyle="bold" />
+
+</LinearLayout>

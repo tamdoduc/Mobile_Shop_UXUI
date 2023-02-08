@@ -21,6 +21,10 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
+
+        LinearLayout layout = (LinearLayout) findViewById(R.id.sp1);
+
+
         Button btOpenHot = (Button) findViewById(R.id.btOpenHot);
         btOpenHot.setOnClickListener(new View.OnClickListener() {
             @Override

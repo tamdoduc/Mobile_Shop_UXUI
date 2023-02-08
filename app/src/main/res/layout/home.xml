@@ -35,44 +35,224 @@
                 <TableRow
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="20dp">
-                    <include android:id="@+id/sp1" layout="@layout/item_card"
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
-                    <include layout="@layout/item_card"
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/sp2"
+                            >
+                        </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:text="Điện thoại Oppo 1512GB"
+                            >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="4.000.000 đ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:src="@drawable/nation"
+                            >
+                        </ImageView>
+                    </LinearLayout>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
-                        />
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/sp3"
+                            >
+                        </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:text="Điện thoại Nokia32 512GB"
+                            >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="6.000.000 đ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:src="@drawable/nation"
+                            >
+                        </ImageView>
+                    </LinearLayout>
                 </TableRow>
                 <TableRow
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="20dp">
-                    <include layout="@layout/item_card"
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
-                    <include layout="@layout/item_card"
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/sp4"
+                            >
+                        </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:text="Điện thoại Oppo 512GB"
+                            >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="14.000.000 đ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:src="@drawable/nation"
+                            >
+                        </ImageView>
+                    </LinearLayout>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
-                        />
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/sp5"
+                            >
+                        </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:text="Điện thoại Oppo 1512GB"
+                            >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="4.000.000 đ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:src="@drawable/nation"
+                            >
+                        </ImageView>
+                    </LinearLayout>
                 </TableRow>
                 <TableRow
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="20dp">
-                    <include layout="@layout/item_card"
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="140dp"
+                            android:src="@drawable/sp5"
+                            >
+                        </ImageView>
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="45dp"
+                            android:layout_marginTop="20dp"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:textColor="@color/black"
+                            android:textSize="10dp"
+                            android:textAlignment="center"
+                            android:text="Điện thoại Oppo 1512GB"
+                            >
+                        </TextView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="4.000.000 đ"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="15dp"
+                            android:src="@drawable/nation"
+                            >
+                        </ImageView>
+                    </LinearLayout>
                     <include layout="@layout/item_card"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
@@ -110,34 +290,110 @@
                 <TableRow
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="20dp">
-                    <include layout="@layout/item_category"
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
-                    <include layout="@layout/item_category"
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/dienthoai"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Điện thoại"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
-                        />
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/laptop"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Máy tính"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
                 </TableRow>
                 <TableRow
                     android:layout_marginTop="10dp"
                     android:layout_marginBottom="20dp">
-                    <include layout="@layout/item_category"
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="20dp"
-                        android:layout_marginRight="10dp"
-                        />
-                    <include layout="@layout/item_category"
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/mypham"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Mỹ phẩm"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
+                    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
-                        android:layout_marginLeft="10dp"
-                        android:layout_marginRight="20dp"
-                        />
+                        android:orientation="vertical"
+                        android:background="@color/backgroundTextViewColor"
+                        >
+                        <ImageView
+                            android:layout_width="match_parent"
+                            android:layout_height="200dp"
+                            android:src="@drawable/tuixach"
+                            >
+                        </ImageView>
+
+                        <TextView
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginLeft="10dp"
+                            android:layout_marginRight="10dp"
+                            android:text="Túi xách"
+                            android:textAlignment="center"
+                            android:textColor="@color/black"
+                            android:textSize="16dp"
+                            android:textStyle="bold"></TextView>
+
+                    </LinearLayout>
                 </TableRow>
             </TableLayout>
             <androidx.appcompat.widget.AppCompatButton

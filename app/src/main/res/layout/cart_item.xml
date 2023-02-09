@@ -43,12 +43,11 @@
 
         </LinearLayout>
 
-        <ImageButton
-            android:id="@+id/imageButton"
-            android:layout_width="match_parent"
+        <ImageView
+            android:id="@+id/imageView7"
+            android:layout_width="52dp"
             android:layout_height="match_parent"
-            android:contentDescription="deletebutton"
-            app:srcCompat="@android:drawable/ic_delete" />
+            app:srcCompat="@android:drawable/btn_dialog" />
 
     </TableRow>
 </LinearLayout>

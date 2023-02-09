@@ -14,7 +14,7 @@
         <ImageView
             android:id="@+id/imageView3"
             android:layout_width="120dp"
-            android:layout_height="wrap_content"
+            android:layout_height="match_parent"
             app:srcCompat="@drawable/ip14" />
 
         <TextView
@@ -37,7 +37,7 @@
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
             android:padding="10sp"
-            android:text="SL:2"
+            android:text="SL:1"
             android:textAlignment="center"
             android:textColor="@color/black" />
 

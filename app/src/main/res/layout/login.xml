@@ -75,7 +75,7 @@
         android:id="@+id/btOpenRegister"
         android:layout_width="match_parent"
         android:layout_height="40dp"
-        android:text="Chưa có tài khoản? Đăng kí!"
+        android:text="Chưa có tài khoản? Đăng ký!"
         android:textColor="@color/backgroundInputColor"
         android:textSize="14dp"
         android:textStyle="normal"

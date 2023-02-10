@@ -32,6 +32,8 @@
                 android:layout_height="wrap_content"
                 android:layout_marginLeft="20sp"
                 android:layout_marginRight="20sp"
+                android:paddingTop="10sp"
+                android:paddingBottom="10sp"
                 android:text="Điện thoại Iphone 14 512 GB Chính hãng Apple"
                 android:textAlignment="gravity"
                 android:textColor="@color/black"
@@ -67,7 +69,8 @@
                 android:text="Thời gian giao hàng dự kiến: 7-10 ngày "
                 android:textAlignment="gravity"
                 android:textColor="@color/black"
-                android:textSize="20sp" />
+                android:textSize="20sp"
+                tools:layout_marginBottom="20sp" />
 
             <TextView
                 android:id="@+id/textView4"
@@ -84,12 +87,15 @@
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
                 android:layout_height="280dp"
+                android:paddingLeft="10sp"
                 android:paddingTop="10sp"
+                android:paddingRight="10sp"
                 android:text="iPhone 14 128GB được xem là mẫu smartphone bùng nổ của nhà táo trong năm 2022, ấn tượng với ngoại hình trẻ trung, màn hình chất lượng đi kèm với những cải tiến về hệ điều hành và thuật toán xử lý hình ảnh, giúp máy trở thành cái tên thu hút được đông đảo người dùng quan tâm tại thời điểm ra mắt.
 iPhone 14 sở hữu thiết kế cao cấp
 Với phiên bản tiêu chuẩn thì nhà Apple vẫn giữ nguyên kiểu dáng thiết kế so với thế hệ tiền nhiệm, vẫn là mặt lưng phẳng cùng bộ khung vuông giúp máy trở nên hiện đại hơn."
                 android:textAlignment="center"
-                android:textSize="16sp" />
+                android:textSize="16sp"
+                tools:textColor="@color/black" />
 
             <TextView
                 android:id="@+id/textView7"

@@ -34,7 +34,8 @@
                         android:layout_height="250dp"
                         android:orientation="vertical"
                         android:background="@color/backgroundTextViewColor"
-                        >
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
@@ -59,7 +60,8 @@
                         android:layout_height="250dp"
                         android:orientation="vertical"
                         android:background="@color/backgroundTextViewColor"
-                        >
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
@@ -88,7 +90,8 @@
                         android:layout_height="250dp"
                         android:orientation="vertical"
                         android:background="@color/backgroundTextViewColor"
-                        >
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
@@ -113,7 +116,8 @@
                         android:layout_height="250dp"
                         android:orientation="vertical"
                         android:background="@color/backgroundTextViewColor"
-                        >
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp">
                         <ImageView
                             android:layout_width="match_parent"
                             android:layout_height="200dp"
@@ -142,6 +146,8 @@
                         android:layout_height="250dp"
                         android:orientation="vertical"
                         android:background="@color/backgroundTextViewColor"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
                         >
                         <ImageView
                             android:layout_width="match_parent"
@@ -165,6 +171,8 @@
                     <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
                         android:layout_width="160dp"
                         android:layout_height="250dp"
+                        android:paddingLeft="15dp"
+                        android:paddingRight="15dp"
                         android:orientation="vertical"
                         android:background="@color/backgroundTextViewColor"
                         >
@@ -187,6 +195,16 @@
                             android:textStyle="bold"></TextView>
 
                     </LinearLayout>
+                </TableRow>
+                <TableRow>
+                    <LinearLayout  android:layout_width="160dp"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="30dp"
+                        android:layout_marginRight="20dp"></LinearLayout>
+                    <LinearLayout  android:layout_width="160dp"
+                        android:layout_height="0dp"
+                        android:layout_marginLeft="10dp"
+                        android:layout_marginRight="20dp"></LinearLayout>
                 </TableRow>
             </TableLayout>
             <TextView

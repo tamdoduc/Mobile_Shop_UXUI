@@ -3,32 +3,17 @@ package com.example.myapplication;
 import android.content.Intent;
 import android.os.Bundle;
 import android.view.View;
-import android.widget.Button;
-import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
 import androidx.appcompat.app.AppCompatActivity;
-import androidx.fragment.app.DialogFragment;
 
-public class BuyHelp extends AppCompatActivity {
+public class Order_status extends AppCompatActivity {
 
-    TextView btOpenLogin;
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.buy_help);
-
-        Button btBuy = (Button) findViewById(R.id.btBuy);
-        btBuy.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                DialogFragment dialog = new MyDialogFragment();
-                dialog.show(getSupportFragmentManager(), "MyDialogFragmentTag");
-            }
-        });
-
-
+        setContentView(R.layout.item_delivery_status);
         LinearLayout btHome = (LinearLayout) findViewById(R.id.btHome);
         btHome.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -49,12 +34,9 @@ public class BuyHelp extends AppCompatActivity {
         btMe.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent myIntent = new Intent(view.getContext(), Profile.class);
+                Intent myIntent = new Intent(view.getContext(),Profile.class);
                 startActivityForResult(myIntent, 0);
             }
         });
-
-        ImageView imageView = (ImageView) findViewById(R.id.imgBuyHelp);
-        imageView.setImageResource(R.drawable.buy_help_enable);
     }
 }

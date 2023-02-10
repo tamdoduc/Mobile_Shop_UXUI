@@ -22,8 +22,15 @@ public class Home extends AppCompatActivity {
         setContentView(R.layout.home);
 
 
-        LinearLayout layout = (LinearLayout) findViewById(R.id.sp1);
 
+        ImageView btOpenCart = (ImageView) findViewById(R.id.toCart);
+        btOpenCart.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(),Cart.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
 
         Button btOpenHot = (Button) findViewById(R.id.btOpenHot);
         btOpenHot.setOnClickListener(new View.OnClickListener() {

@@ -32,6 +32,11 @@
         <activity android:label="Trang chủ" android:name=".Home"/>
         <activity android:label="Sản phẩm hot" android:name=".Hot"/>
         <activity android:label="Danh mục" android:name=".Category"/>
+        <activity android:label="Giỏ hàng" android:name=".Cart"/>
+        <activity android:label="Thanh toán" android:name=".Payment"/>
+        <activity android:label="Đặt hàng thành công" android:name=".Order_Success"/>
+        <activity android:label="Đặt hàng thất bại" android:name=".Order_Fail"/>
+        <activity android:label="Tình trạng đơn hàng" android:name=".Order_status"/>
         <activity android:label="Yêu cầu đặt hàng" android:name=".BuyHelp"/>
     </application>
 

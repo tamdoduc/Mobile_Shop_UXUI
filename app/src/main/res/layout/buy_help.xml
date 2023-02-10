@@ -7,7 +7,7 @@
     xmlns:android="http://schemas.android.com/apk/res/android">
 <ScrollView
     android:layout_width="match_parent"
-    android:layout_height="720dp"
+    android:layout_height="710dp"
     xmlns:android="http://schemas.android.com/apk/res/android">
 <LinearLayout android:layout_height="match_parent"
     android:layout_width="match_parent"

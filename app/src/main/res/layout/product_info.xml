@@ -13,7 +13,7 @@
 
     <ScrollView
         android:layout_width="match_parent"
-        android:layout_height="match_parent">
+        android:layout_height="620dp">
 
         <LinearLayout
             android:layout_width="match_parent"
@@ -83,21 +83,13 @@
             <TextView
                 android:id="@+id/textView3"
                 android:layout_width="match_parent"
-                android:layout_height="149dp"
+                android:layout_height="280dp"
                 android:paddingTop="10sp"
-                android:text="Thông tin sản phẩm"
+                android:text="iPhone 14 128GB được xem là mẫu smartphone bùng nổ của nhà táo trong năm 2022, ấn tượng với ngoại hình trẻ trung, màn hình chất lượng đi kèm với những cải tiến về hệ điều hành và thuật toán xử lý hình ảnh, giúp máy trở thành cái tên thu hút được đông đảo người dùng quan tâm tại thời điểm ra mắt.
+iPhone 14 sở hữu thiết kế cao cấp
+Với phiên bản tiêu chuẩn thì nhà Apple vẫn giữ nguyên kiểu dáng thiết kế so với thế hệ tiền nhiệm, vẫn là mặt lưng phẳng cùng bộ khung vuông giúp máy trở nên hiện đại hơn."
                 android:textAlignment="center"
-                android:textSize="48sp" />
-
-            <TextView
-                android:id="@+id/textView10"
-                android:layout_width="match_parent"
-                android:layout_height="wrap_content"
-                android:text="Thêm vào giỏ"
-                android:textAlignment="center"
-                android:textColor="@color/backgroundInputColor"
-                android:textSize="30sp"
-                tools:background="@color/backgroundButtonColorGreen" />
+                android:textSize="16sp" />
 
             <TextView
                 android:id="@+id/textView7"
@@ -360,5 +352,26 @@
 
         </LinearLayout>
     </ScrollView>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal">
+        <include
+            layout="@layout/item_amount"
+            android:layout_width="150dp"
+            android:layout_marginLeft="0dp"
+            android:layout_height="wrap_content" />
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btLogin"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/button_radius"
+            android:backgroundTint="@color/backgroundButtonColorGreen"
+            android:text="Thêm vào giỏ"
+            android:textColor="@color/black"
+            android:textSize="14dp">
 
+        </androidx.appcompat.widget.AppCompatButton>
+    </LinearLayout>
+    <include layout="@layout/footer"/>
 </LinearLayout>

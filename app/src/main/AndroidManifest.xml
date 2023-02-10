@@ -37,6 +37,7 @@
         <activity android:label="Đặt hàng thành công" android:name=".Order_Success"/>
         <activity android:label="Đặt hàng thất bại" android:name=".Order_Fail"/>
         <activity android:label="Tình trạng đơn hàng" android:name=".Order_status"/>
+        <activity android:label="Thông tin sản phẩm" android:name=".Product"/>
         <activity android:label="Yêu cầu đặt hàng" android:name=".BuyHelp"/>
     </application>
 

@@ -12,6 +12,7 @@ import android.widget.TextView;
 import android.widget.ViewSwitcher;
 
 import androidx.appcompat.app.AppCompatActivity;
+import androidx.recyclerview.widget.LinearLayoutManager;
 
 public class Home extends AppCompatActivity {
 
@@ -21,7 +22,14 @@ public class Home extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.home);
 
-
+        LinearLayout sp1 = (LinearLayout) findViewById(R.id.sp1);
+        sp1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent myIntent = new Intent(view.getContext(),Product.class);
+                startActivityForResult(myIntent, 0);
+            }
+        });
 
         ImageView btOpenCart = (ImageView) findViewById(R.id.toCart);
         btOpenCart.setOnClickListener(new View.OnClickListener() {
